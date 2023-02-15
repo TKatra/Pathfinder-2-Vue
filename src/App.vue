@@ -3,7 +3,7 @@
   import HeaderView from './views/HeaderView.vue';
 </script>
 
-<style lang="scss" src="./App.scss"></style>
+<style lang="scss" src="./styles/App.scss"></style>
 
 <template>
   <HeaderView />
