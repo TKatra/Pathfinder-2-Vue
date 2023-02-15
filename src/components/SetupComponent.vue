@@ -49,21 +49,21 @@ function startGame () {
 
   <div class="d-flex justify-content-between mt-3">
     <div class="col-5">
-      <label>Minimum value</label>
-      <input type="number"
-            class="col-12"
-            v-model="minValue"
-            min="0"
-            :max="maxValue -1" />
-    </div>
-
-    <div class="col-5">
       <label>Maximum value</label>
       <input type="number"
             class="col-12"
             v-model="maxValue"
             :min="minValue +1"
             max="100" />
+    </div>
+
+    <div class="col-5">
+      <label>Minimum value</label>
+      <input type="number"
+            class="col-12"
+            v-model="minValue"
+            min="0"
+            :max="maxValue -1" />
     </div>
   </div>
 
