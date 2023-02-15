@@ -4,6 +4,7 @@
 
 <template>
   <header>
+    <h1>Pathfinder 2</h1>
     <div>
       <nav>
         <span>
